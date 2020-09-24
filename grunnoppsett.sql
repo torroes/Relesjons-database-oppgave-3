@@ -1,6 +1,6 @@
 
 
--- lag tabellen elever
+-- lag tabellen eleverv
 
 CREATE TABLE elever (
     elev_ID int NOT NULL AUTO_INCREMENT,
