@@ -63,7 +63,8 @@ ADD FOREIGN KEY (klasse_ID) REFERENCES klasser(Klasse_ID);
 -- Setter inn lærere i tabellen lærere
 
 insert into lærere (lærernavn, email, klasse_ID )
-values ('Tormod', 'tormod@hedmark.org', NULL), ('Per Erik', 'per_erik@hedmark.org', NULL), ('Tor Olav', 'tor_olav@hedmark.org', NULL);
+values ('Tormod', 'tormod.røseplass@hedmark.org', NULL), ('Per Erik', 'per.fosheim@hedmark.org', NULL), ('Tor Olav', 'tor.olav@hedmark.org', 1), ('Jørn', 'jørn.mogensen@hedmark.org', 2),
+('Simen', 'simen.myrvang@hedmark.org', NULL);
 
 
 
