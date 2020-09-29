@@ -1,0 +1,2 @@
+ALTER TABLE elever
+DROP FOREIGN KEY klasse_ID;
